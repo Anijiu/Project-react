@@ -1,0 +1,31 @@
+.head{
+  color:#75a739;
+  height:45px;
+  width:100%;
+  background-color: #fff;
+  overflow: hidden;
+  line-height: 45px;
+  border-bottom: 1px solid #d8d8d8;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  i{
+    float:left;
+    color:#75a739;
+    font-size: 30px;
+    margin:0 5px;
+  }
+  .ul{
+    float:left;
+    .navlink{
+      font-size: 20px;
+      list-style: none;
+      float: left;
+      padding: 0 8px;
+      margin:0 20px;
+      color:#75a739;
+
+    }
+  }
+}

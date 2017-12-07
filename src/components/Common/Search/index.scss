@@ -1,0 +1,55 @@
+.search{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: #fff;
+	.head{
+		overflow: hidden;
+		border-bottom: 1px solid #dcdcdc;
+		padding: 10px 10px;
+		span{
+			color:green;
+			float: right;
+			line-height: 31px;
+		}
+		.icon-back{
+			color:green;
+			float: left;
+			line-height: 31px;
+		}
+		.ipt{
+			float: left;
+			background-color: #ccc;
+			margin-left:20px;
+			padding: 5px 10px;
+			border-radius: 5px;
+			width: 220px;
+			i{
+				float: right;
+			}
+			input{
+				height:10px;
+				border:none;
+				background-color: #ccc;
+			}
+		}
+
+	}
+}
+
+.list{
+	padding: 0 10px;
+	p{
+		margin: 10px 0;
+	}
+	li{
+		list-style: none;
+		float: left;
+		background-color: #ccc;
+		padding: 5px 10px;
+		margin: 10px 10px 0 0;
+		border-radius: 5px;
+	}
+}

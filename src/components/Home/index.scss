@@ -1,0 +1,172 @@
+#home{
+	width:100%;
+	nav{
+	  height:45px;
+	  width: 100%;
+	  background-color: #fff;
+	  z-index: 20;
+	  box-shadow: 0 0 8px #000;     
+	  position: fixed;
+	  left: 0;
+	  top: 0;
+	  .left{
+	    float: left;
+	    margin-left:10px;
+	    font-size: 14px;
+	    line-height: 45px;
+	    color:#65a032;
+	    img{
+	      width:50px;
+	      height:14px;
+	      margin:15px 5px 0 0;
+	      float: left;
+	    }
+	    p{
+	      float: left;
+	      
+	    }
+	    i{
+	      float: left;
+	    }
+	  }
+	  .right{
+	    font-size: 20px;
+	    float: right;
+	    margin-right: 20px;
+	    height:100%;
+	    line-height: 45px;
+	  }
+	}
+	.carousel{
+		width:100%;
+		padding-top:46px;
+		img{
+			width: 100%;
+		}
+	}
+	.selfurl{
+	  width:100%;
+	  height:36px;
+	}
+	.newtest{
+	  width:100%;
+	  height:116px;
+	  ul{
+	    text-align: center;
+	    img{
+	      width:175px;
+	      height:86px;
+	      margin-right:2px;
+	    } 
+	  }
+	}
+	.item1{
+	  .img1{
+	    width:100%;
+	    height:160px;
+	  }
+	  .img2{
+	    width:100%;
+	    height:110px;
+	  }
+	}
+	.item2{
+	  height:234px; 
+	  width:100%;
+	  overflow: hidden;
+	  position:relative;
+	  .item2url{
+	    width:100%;
+	    height:60px;
+	  }
+	  ul{
+	    display:flex; 
+	      height: 150px;
+	      // position: absolute;
+	      // left:0;
+	      // top: 64px;
+	      overflow-x:scroll;
+	      white-space: nowrap;
+	      &::-webkit-scrollbar {//隐藏滚动条
+	        height: 0;
+	      }
+	    li{
+	      float: left;
+	      width:112px;
+	      height:100%;
+	      list-style: none;
+	      img{
+	        height:96px;
+	        width:96px;
+	        text-align: center;
+	      }
+	      h5{
+	        text-align: center;
+	        text-align: center;
+	        white-space: nowrap;
+	        text-overflow: ellipsis;
+	        overflow: hidden;
+	      }
+	      p{
+	        font-size: 12px;
+	        color:#ff8000;  
+	        text-align: center;      
+	      }
+	    }
+	  }
+	}
+	.item3{
+	  overflow: hidden;
+	  .img1{
+	    height:231px;
+	    width:186.5px;
+	    float: left;
+	    margin-right: 1px;
+	  }
+	  .img2{
+	    height:114px;
+	    width:186.5px;
+	    float: left;
+	    margin-bottom: 1px;
+	  }
+	  .img3{
+	    height:114px;
+	    width:186.5px;
+	    float: left;
+	  }
+	}
+	.item4{
+	  margin-top:2px;
+	  .item4url{
+	    width:100%;
+	    height:60px;
+	  }
+	  ul{
+	    
+	    li{
+	      list-style:none;
+	      height:160px;
+	      padding: 0 10px;
+	      img{
+	        width:120px;
+	        height:120px;
+	        float:left;       
+	      }
+	      .right{
+	        float: left;
+	        margin: 30px 0 0 10px;
+	        h5{
+	          white-space: nowrap;
+	          text-overflow: ellipsis;
+	          overflow: hidden;
+	        }
+	        .price{
+	          font-size: 18px;
+	          color:#ff8000; 
+	          margin-top: 5px;       
+	        }
+	      }
+	    }
+	  }
+	}
+}

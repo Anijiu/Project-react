@@ -1,0 +1,30 @@
+.main{
+  ul{
+    li{
+      list-style:none;
+      height:140px;
+      padding:10px 10px;
+      border-bottom: 1px solid #d8d8d8;
+      img{
+        width:105px;
+        height:105px;
+        float:left;       
+      }
+      .right{
+        width: 200px;       
+        float: left;
+        margin: 0 0 0 10px;
+        h5{
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+        }
+        .price{
+          font-size: 18px;
+          color:#ff8000; 
+          margin-top: 5px;       
+        }
+      }
+    }
+  }
+}
